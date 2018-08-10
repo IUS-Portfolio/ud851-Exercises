@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements
         super.onPause();
         unregisterReceiver(mChargingBroadcastReceiver);
     }
-    
+
     /**
      * Updates the TextView to display the new water count from SharedPreferences
      */
